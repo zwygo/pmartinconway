@@ -1,0 +1,109 @@
+body {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+.page_container {
+  width: 960px;
+  margin: 0px auto;
+}
+.header_container {
+  margin-top: 20px;
+  width: 960px;
+}
+.header_container .picture_wrapper {
+  float: left;
+}
+.header_container .picture_wrapper img {
+  height: 140px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+.header_container .bio_wrapper {
+  margin-left: 20px;
+  float: left;
+  margin-top: 5px;
+}
+.header_container .bio_wrapper h1 {
+  margin-top: 0px;
+  line-height: .9;
+  color: #15487c;
+}
+.header_container .bio_wrapper h2 {
+  color: #517493;
+}
+.header_container .bio_wrapper h3 {
+  font-size: 20px;
+  color: #517493;
+  margin-top: 0px;
+  line-height: .9;
+}
+.header_container .bio_wrapper .edit_links {
+  display: none;
+}
+.header_container .bio_wrapper.admin_mode .edit_links {
+  display: block;
+  float: right;
+  position: relative;
+  top: -124px;
+}
+.body_container {
+  margin-top: 30px;
+  width: 960px;
+  float: left;
+  background: #f6f6f6;
+  border: solid 1px #ddd;
+  padding: 20px 25px;
+}
+.body_container h2 {
+  color: #15487c;
+  margin-top: 0px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.body_container h2.publications {
+  margin-top: 10px;
+}
+.body_container .publication_section_wrapper {
+  width: 500px;
+  float: left;
+}
+.body_container .publication_section_wrapper ul.publications_wrapper {
+  list-style: none;
+  font-size: 18px;
+  margin-left: 0px;
+}
+.body_container .publication_section_wrapper ul.publications_wrapper li {
+  line-height: 35px;
+}
+.body_container .publication_section_wrapper ul.publications_wrapper a {
+  display: block;
+}
+.body_container .publication_section_wrapper .edit_links {
+  display: none;
+}
+.body_container .publication_section_wrapper .upload_button {
+  display: none;
+}
+.body_container .publication_section_wrapper.admin_mode .edit_links {
+  display: block;
+  float: right;
+  position: relative;
+  top: -58px;
+  left: -28px;
+}
+.body_container .about_section_wrapper {
+  float: right;
+  width: 420px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+.body_container .about_section_wrapper .edit_links {
+  display: none;
+}
+.body_container .about_section_wrapper.admin_mode .edit_links {
+  display: block;
+  float: right;
+  position: relative;
+  top: -58px;
+  right: -5px;
+}
