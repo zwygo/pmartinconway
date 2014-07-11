@@ -90,6 +90,9 @@ body {
   top: -58px;
   left: -28px;
 }
+.body_container .publication_section_wrapper.admin_mode .upload_button {
+  display: block;
+}
 .body_container .about_section_wrapper {
   float: right;
   width: 420px;
